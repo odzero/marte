@@ -3,10 +3,16 @@ var boton = document.getElementById("boton");
 
 boton.addEventListener("click", formula);
 
+var respuesta = cajaDeTexto.value;
+
+respuesta = parseInt(respuesta);
+
+
+
 function formula()
 
 	{
-		alert("Funciona");
+		alert(respuesta * 2);
 	}
 
 
