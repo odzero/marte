@@ -1,3 +1,4 @@
+var pesoMarte;
 var cajaDeTexto = document.getElementById("formulario");
 var boton = document.getElementById("boton");
 
@@ -7,12 +8,14 @@ var respuesta = cajaDeTexto.value;
 
 respuesta = parseInt(respuesta);
 
+pesoMarte = (respuesta/9.81)*3.711;
+
 
 
 function formula()
 
 	{
-		alert(respuesta * 2);
+		alert("Tu peso en marte aproximado sería\n" + Math.round(pesoMarte));
 	}
 
 
