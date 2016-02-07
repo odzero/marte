@@ -15,7 +15,7 @@ pesoMarte = (respuesta/9.81)*3.711;
 function formula()
 
 	{
-		alert("Tu peso en marte aproximado sería\n" + Math.round(pesoMarte));
+		alert("Tu peso en marte aproximado sería\n" + Math.round(pesoMarte) + "\nSorprendente!");
 	}
 
 
